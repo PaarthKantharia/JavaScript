@@ -53,3 +53,29 @@ console.log(typeof myFunction) // Funtion --- Function--Object
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Premitative) and Heap (Non-Premitative)
+
+let myYoutubeName = "Paarth kantharia";
+
+let anothername = myYoutubeName;
+
+anothername = "CodeWithPaarth";
+
+console.log(myYoutubeName); // Paarth kantharia
+console.log(anothername); // CodeWithPaarth
+
+let userOne = {
+    email: "userone@example.com",
+    name: "User One"
+};
+
+let userTwo = userOne;
+
+userTwo.email = "usertwo@example.com";
+
+console.log(userOne.email); // usertwo@example.com
+console.log(userTwo.email); // usertwo@example.com
