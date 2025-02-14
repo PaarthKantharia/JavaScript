@@ -4,7 +4,7 @@ var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;
 
-// accountId = 2 // not allowed
+ // accountId = 2  not allowed becasue its a constant and already assigned a value in line 1 //
 
 
 accountEmail = "hc@hc.com"
@@ -14,8 +14,7 @@ accountCity = "Bengaluru"
 console.log(accountId);
 
 /*
-Prefer not to use var
-because of issue in block scope and functional scope
+Prefer not to use var because of issue in block scope and functional scope instead use let
 */
 
 
